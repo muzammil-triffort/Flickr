@@ -1,0 +1,17 @@
+platform :ios, '11.0'
+use_frameworks!
+
+def shared_pods
+
+  pod 'SDWebImage'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'MBProgressHUD'
+  
+end
+
+target 'Polarr' do
+
+  shared_pods
+  
+end
